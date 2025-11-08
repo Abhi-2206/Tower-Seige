@@ -20,16 +20,12 @@ function preload() {
 
 }
 
-
-
 function setup() {
 	createCanvas(800, 600);
-
 
 	engine = Engine.create();
 	world = engine.world;
  
-
     ground= new Ground(400,580,1000,20)
     miniG= new Ground(640,250,220,20)
     miniG2= new Ground(330,450,250,20)
@@ -79,7 +75,6 @@ function setup() {
 
     Engine.run(engine);
 }
-
 
 function draw() {
   rectMode(CENTER);
