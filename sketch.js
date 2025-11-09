@@ -126,8 +126,6 @@ function draw() {
 
   chain.display()
 
-  
-
   fill("gold")
     imageMode(CENTER)
     image(hexa_image,hexa.position.x,hexa.position.y,40,40)
