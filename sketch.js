@@ -138,12 +138,16 @@ function draw() {
  
 }
 function mouseDragged(){
+	
   Matter.Body.setPosition(hexa, {x: mouseX , y: mouseY});
+	
 }
 
 
 function mouseReleased(){
+	
   chain.fly();
+	
 }
 
  
